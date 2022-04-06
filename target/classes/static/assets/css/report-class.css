@@ -1,0 +1,8 @@
+ .initial-input{
+      display: inline-block;
+}
+
+.detail{
+    border-style: none;
+    width:50%;
+}
