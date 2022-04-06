@@ -1,0 +1,15 @@
+org\trb\web\UserRegistrationController.class
+org\trb\web\HomeController.class
+org\trb\config\SecurityConfiguration.class
+org\trb\constraint\FieldMatch$List.class
+org\trb\constraint\FieldMatch.class
+org\trb\model\User.class
+org\trb\model\Role.class
+org\trb\service\UserService.class
+org\trb\service\UserServiceImpl.class
+org\trb\repository\UserRepository.class
+org\trb\constraint\FieldMatchValidator.class
+org\trb\repository\RoleRepository.class
+org\trb\web\dto\UserRegistrationDto.class
+org\trb\web\MainController.class
+org\trb\Application.class

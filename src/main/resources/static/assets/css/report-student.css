@@ -1,0 +1,18 @@
+.container {
+
+  position: relative;
+
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.initial-input{
+      display: inline-block;
+}
