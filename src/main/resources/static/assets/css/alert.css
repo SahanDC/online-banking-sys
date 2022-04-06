@@ -1,0 +1,79 @@
+
+        #dialogoverlay{
+            display: none;
+            opacity: .8;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            background: #FFF;
+            width: 100%;
+            z-index: 10;
+        }
+        #dialogbox{
+            display: none;
+            position: fixed;
+            background: #000;
+            border-radius:7px;
+            width:550px;
+            z-index: 10;
+        }
+        #dialogbox > div{ background:#FFF; margin:8px; }
+        #dialogbox > div > #dialogboxhead{ background: #666; font-size:19px; padding:10px; color:#CCC; }
+        #dialogbox > div > #dialogboxbody{ background:#333; padding:20px; color:#FFF; }
+        #dialogbox > div > #dialogboxfoot{ background: #666; text-align:right; padding:10px; height:50px }
+        #dialogboxfoot > div > #dialogboxfootCancel{  text-align:right; padding:10px;}
+        #dialogboxfoot > div > #dialogboxfootOk{ text-align:right; padding:10px;}
+
+        #submitAlertOverlay{
+            display: none;
+            opacity: .8;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            background: #FFF;
+            width: 100%;
+            z-index: 10;
+        }
+        #submitAlertBox{
+            display: none;
+            position: fixed;
+            background: #000;
+            border-radius:7px;
+            width:550px;
+            z-index: 10;
+        }
+        #submitAlertBox > div{ background:#FFF; margin:8px; }
+        #submitAlertBox > div > #submitAlertBoxHead{ background: #666; font-size:19px; padding:10px; color:#CCC; }
+        #submitAlertBox > div > #submitAlertBoxBody{ background:#333; padding:20px; color:#FFF; }
+        #submitAlertBox > div > #submitAlertBoxFoot{ background: #666; text-align:right; padding:10px; height:50px}
+        #submitAlertBoxFoot > div > #submitAlertBoxFootContinue{  text-align:right; padding:10px;}
+        #submitAlertBoxFoot > div > #submitAlertBoxFootSubmit{ text-align:right; padding:10px;}
+
+
+
+
+
+        #changeDefaultYearlyDiscountFeeAlert{
+                    display: none;
+                    opacity: .8;
+                    position: fixed;
+                    top: 0px;
+                    left: 0px;
+                    background: #FFF;
+                    width: 100%;
+                    z-index: 10;
+                }
+                #changeDefaultYearlyDiscountFeeAlertBox{
+                    display: none;
+                    position: fixed;
+                    background: #000;
+                    border-radius:7px;
+                    width:550px;
+                    z-index: 10;
+                }
+                #changeDefaultYearlyDiscountFeeAlertBox > div{ background:#FFF; margin:8px; }
+                #changeDefaultYearlyDiscountFeeAlertBox > div > #changeDefaultYearlyDiscountFeeAlertBoxHead{ background: #666; font-size:19px; padding:10px; color:#CCC; }
+                #changeDefaultYearlyDiscountFeeAlertBox > div > #changeDefaultYearlyDiscountFeeAlertBoxBody{ background:#333; padding:20px; color:#FFF; }
+                #changeDefaultYearlyDiscountFeeAlertBox > div > #changeDefaultYearlyDiscountFeeAlertBoxFoot{ background: #666; text-align:right; padding:10px; height:50px}
+                #changeDefaultYearlyDiscountFeeAlertBoxFoot > div > #changeDefaultYearlyDiscountFeeAlertBoxCancel{  text-align:right; padding:10px;}
+                #changeDefaultYearlyDiscountFeeAlertBoxFoot > div > #changeDefaultYearlyDiscountFeeAlertBoxSave{ text-align:right; padding:10px;}
